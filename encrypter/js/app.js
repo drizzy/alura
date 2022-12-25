@@ -84,7 +84,7 @@
       const warning = document.getElementById('warning');
     
       /* Validar que el textarea no este vacio, que no contenga caracteres y que no contenga letras mayusculas */
-      if ( !/^[a-z]\s*[a-z]*$/.test(text) ) {
+      if ( !/^[a-z]\s*[a-z\s]*$/.test(text) ) {
 
         /* Eliminar el color gris de advertencia */
         warning.classList.remove('encrypter-priority-warning_p');
@@ -172,7 +172,7 @@
       const warning = document.getElementById('warning');
        
       /* Validar que el textarea no este vacio, que no contenga caracteres y que no contenga letras mayusculas */
-      if ( !/^[a-z]\s*[a-z]*$/.test(result) ) {
+      if ( !/^[a-z]\s*[a-z\s]*$/.test(result) ) {
 
         /* Eliminar el color gris de advertencia */
         warning.classList.remove('encrypter-priority-warning_p');
