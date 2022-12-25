@@ -443,9 +443,9 @@ body.dark .encrypter-aside-info_p {
   }
 
   .encrypter-aside_result {
-    height: 90px;
-    -webkit-line-clamp: 3;
-    bottom: 3.5rem;
+    height: 50px;
+    -webkit-line-clamp: 2;
+    bottom: 5rem;
   }
 
   .encrypter-aside-button_copy {
