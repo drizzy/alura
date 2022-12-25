@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="assets/svg/alura.svg" type="image/x-icon">
+    <title>Encrypter</title>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="header">
+      <img class="header_logo" src="assets/svg/alura.svg" alt="">
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Main container -->
+      <main id="main">
+
+        <!-- Encryter Textarea -->
+        <div class="encrypter_textarea">
+          <label for="text-encrypt" class="encrypter-textarea_label">Ingrese el texto aqui</label>
+          <textarea class="encrypter-textarea_text" id="text-encrypt"></textarea>
+        </div>
+      
+        <!-- Encryter Priority  -->
+        <div class="encrypter_priority">
+
+          <!-- Encryter Warning -->
+          <div class="encrypter-priority_warning">
+            <img class="encrypter-priority-waring_img" src="assets/svg/priority.svg" alt="">
+            <p id="warning" class="encrypter-priority-warning_p"> Solo letras minusculas y sin acentos</p>
+          </div>
+    
+          <!-- Encryter Buttons -->
+          <div class="encrypter-priority_buttons">
+            <button id="btn-encrypt" class="encrypter-priority-buttons_encrypt">Encriptar</button>
+            <button id="btn-decrypt" class="encrypter-priority-buttons_decrypt">Desencriptar</button>
+          </div>
+
+        </div>
+
+      </main>
+
+      <!-- Aside -->
+      <aside class="encrypter_aside">
+
+       <!-- Power Button  -->
+       <img id="btn-dark" class="encrypter-aside_power" src="assets/svg/moon.svg" alt="Icon moon">
+
+        <!-- Aside information --> 
+        <div class="encrypter-aside_info">
+          <img class="encrypter-aside-info_img" src="assets/svg/doll.svg" alt="Doll">
+          <h5 class="encrypter-aside-info_h5">Ningun mensaje fue encontado</h5>
+          <p class="encrypter-aside-info_p">Ingresa el texto que desea encriptar o desencriptar.</p>
+        </div>
+
+        <!-- Button copy -->
+        <div class="encrypter-aside_button">
+          
+        </div>
+
+      </aside>
+
+    </div>
+
+    <!-- scripts -->
+    <script src="js/app.js"></script>
+
+  </body>
+</htm
